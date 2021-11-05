@@ -1,0 +1,53 @@
+.gymFrame {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.gymContainer {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gymBlock1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gymTextHolder {
+    width: 60%;
+    height: fit-content;
+}
+
+.projectExt {
+    margin-top: 1em;
+}
+
+.linkOut:link, .linkOut:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.linkOut:hover, .linkOut:active {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.gymBlock2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gymImgHolder {
+    width: 100%;
+}

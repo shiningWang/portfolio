@@ -1,0 +1,61 @@
+.contactFrame {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contactContainer {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactBlock1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactTextHolder {
+    width: fit-content;
+    height: fit-content;
+}
+
+.contactBlock2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactDetailHolder {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactBox {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contactIconHolder {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.mobileImg, .emailImg, .githubImg {
+    height: 100%;
+}

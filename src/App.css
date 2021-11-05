@@ -1,0 +1,121 @@
+.textTitle {
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textContent {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pageContainer {
+  position: absolute;
+  z-index: 19;
+  animation: entering 0.5s none linear;
+}
+
+.pageContainerLeaving {
+  opacity: 1;
+  position: absolute;
+  z-index: 19;
+  animation: leaving 0.5s none linear;
+}
+
+@keyframes leaving {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes entering {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.buttonsHolder {
+  position: absolute;
+  z-index: 29;
+  width: 55%;
+  top: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  transition: all 0.5s ease;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  border-radius: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+  float: left;
+}
+
+.pageActive {
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  transition: all 0.5s ease;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  border-radius: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #FFFFFF;
+  color: #000000;
+  float: left;
+}
+
+.backgroundContainer {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  filter: blur(3em);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.circle1 {
+  background-color: #DDC4FC;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  transition: all 0.5s;
+  top: 0px;
+  animation: breathe 1s infinite ease-in-out;
+}
+
+.circle2 {
+  background-color: #91C5FC;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  transition: all 0.5s;
+  top: 0px;
+  animation: breathe 5s infinite ease-in-out;
+}
+
+@keyframes breathe {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

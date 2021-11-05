@@ -1,0 +1,42 @@
+.helloFrame {
+    margin: 0;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes leaving {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.helloContainer {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.helloBlock1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.helloTextHolder {
+    width: fit-content;
+    height: fit-content;
+}
+
+.helloBlock2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}

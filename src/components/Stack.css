@@ -1,0 +1,68 @@
+.stackFrame {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.stackContainer {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stackBlock1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stackBlock1Holder1 {
+    height: fit-content;
+    width: 60%;
+}
+
+.stackBlock2 {
+    width: 100%;
+    float: left;
+}
+
+.stackBlock2Holder1 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.stackFrontend {
+    width: 60%;
+    height: fit-content;
+}
+
+.stackBreaklineHolder {
+    width: 1%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.stackBlock2Holder2 {
+    width: 49%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.stackBackend {
+    width: 60%;
+    height: fit-content;
+}

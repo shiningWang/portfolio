@@ -1,0 +1,160 @@
+.gymIntroFrame {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.gymIntroFrame::-webkit-scrollbar { 
+    display: none;
+}
+
+.gymIntroContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gymIntroEntry {
+    width: 100%;
+    height: 100vh;
+}
+
+.entryBlock1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entryBlock1Content {
+    width: 80%;
+    height: fit-content;
+}
+
+.entryTitle, .entryContent {
+    padding-bottom: 1em;
+}
+
+.gymStackImgHolder {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    max-height: 40px;
+}
+
+.entryBlock2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.entryImg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gymBrief {
+    height: 100vh;
+    width: 100%;
+}
+
+.briefContent {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.briefContentBlock {
+    width: 80%;
+    padding-bottom: 5%;
+}
+
+.briefStack {
+    height: 50%;
+    width: 100%;
+}
+
+.gymFrontend {
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.gymFrontendBlock1 {
+    width: 10%;
+    float: left;
+}
+
+.gymFrontendBlock2 {
+    width: 70%;
+    float: left;
+}
+
+.gymBackend {
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.gymBackendBlock1 {
+    width: 10%;
+    float: left;
+}
+
+.gymBackendBlock2 {
+    width: 70%;
+    float: left;
+}
+
+.gymAppCol {
+    height: 100vh;
+    width: 100%;
+}
+
+.gymAppColBlock1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gymAppColBlock1Container {
+    width: 80%;
+}
+
+.gymAppColBlock2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.gymAppColBlock2Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gymIntroText {
+    padding-bottom: 1em;
+}

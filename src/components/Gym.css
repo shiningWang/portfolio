@@ -21,22 +21,30 @@
 }
 
 .gymTextHolder {
-    width: 60%;
+    width: 80%;
     height: fit-content;
+}
+
+.projectIntro {
+    padding-top: 1em;
 }
 
 .projectExt {
     margin-top: 1em;
+    margin-right: 1em;
+    display: inline-block;
 }
 
 .linkOut:link, .linkOut:visited {
   text-decoration: none;
   color: #000000;
+  cursor: none;
 }
 
 .linkOut:hover, .linkOut:active {
   text-decoration: underline;
   color: #000000;
+  cursor: none;
 }
 
 .gymBlock2 {
@@ -50,4 +58,27 @@
 
 .gymImgHolder {
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .gymBlock1 {
+        width: 100%;
+        height: 50%;
+        align-items: flex-end;
+    }
+    .gymTextHolder {
+        width: 80%;
+        padding-bottom: 5%;
+    }
+    .gymBlock2 {
+        width: 100%;
+        height: 50%;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+    .gymImgHolder {
+        overflow: hidden;
+        margin-top: -15%;
+        min-width: 500px;
+    }
 }

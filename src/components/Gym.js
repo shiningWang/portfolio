@@ -19,8 +19,9 @@ class Gym extends React.Component {
                         <div className="gymBlock1">
                             <div className="gymTextHolder">
                                 <div><span className="textTitle">Gym Booking App</span></div>
-                                <div><span className="textContent">This full-stack project is using React and Node.js with modern and clean design to deliver polished smooth user experience.</span></div>
-                                <div className="projectExt"><span className="textContent"><a className="linkOut" href={'//gym-booking-app-frontend.herokuapp.com/'}>Live Demo</a></span></div>
+                                <div className="projectIntro"><span className="textContent">This full-stack project is using React and Node.js with modern and clean design to deliver polished smooth user experience.</span></div>
+                                <div className="projectExt"><span className="textContent"><a className="linkOut" href={'//gym-booking-app-frontend.herokuapp.com/'}>Live-Demo</a></span></div>
+                                <div className="projectExt"><span className="textContent"><a className="linkOut" onClick = {() => {this.props.pageChange(7)}}>View-Detail</a></span></div>
                             </div>
                         </div>
 

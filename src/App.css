@@ -42,8 +42,9 @@
 .buttonsHolder {
   position: absolute;
   z-index: 29;
-  width: 55%;
   top: 90%;
+  width: 40%;
+  margin-left: 10%;
   display: flex;
   justify-content: center;
 }
@@ -58,10 +59,8 @@
   border-radius: 2em;
   padding-left: 1em;
   padding-right: 1em;
-  background-color: #FFFFFF;
-  color: #000000;
-  cursor: pointer;
-  float: left;
+  background-color: rgba(255, 255, 255, .3);
+  color: rgba(00, 00, 00, .7);
 }
 
 .pageActive {
@@ -74,9 +73,8 @@
   border-radius: 2em;
   padding-left: 1em;
   padding-right: 1em;
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, .7);
   color: #000000;
-  float: left;
 }
 
 .backgroundContainer {
@@ -117,5 +115,76 @@
   }
   100%{
     transform: scale(1);
+  }
+}
+
+.mouseEffectBox {
+  position: absolute;
+  z-index: 9991;
+}
+
+.mouseEffectBox {
+  pointer-events:none;
+  opacity: .5;
+  filter: blur(1px);
+}
+
+.mouseLayer1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #007bff;
+  position: absolute;
+  z-index: 9995;
+  opacity: .5;
+  animation: mouseFtAnime 2s infinite ease-in-out;
+}
+
+.mouseLayer2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #7300ff;
+  position: absolute;
+  z-index: 9999;
+  transition: all 0.01s ease-in-out;
+  animation: mouseBgAnime 2s infinite ease-out;
+}
+
+@keyframes mouseFtAnime {
+  0% {
+    transform: scaleX(1) scaleY(1) rotate(0deg);
+  }
+  35% {
+    transform: scaleX(1.1) scaleY(0.9) rotate(126deg);
+  }
+  65% {
+    transform: scaleX(0.9) scaleY(1.1) rotate(234deg);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1) rotate(360deg);
+  }
+}
+
+@keyframes mouseBgAnime {
+  0% {
+    transform: scaleX(1) scaleY(1) rotate(0deg);
+  }
+  35% {
+    transform: scaleX(0.9) scaleY(1.1) rotate(-126deg);
+  }
+  65% {
+    transform: scaleX(1.1) scaleY(0.9) rotate(-234deg);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1) rotate(-360deg);;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttonsHolder {
+    width: 100%;
+    margin-left: 0;
+    top: 95%;
   }
 }

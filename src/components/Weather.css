@@ -21,7 +21,7 @@
 }
 
 .weatherTextHolder {
-    width: 60%;
+    width: 80%;
     height: fit-content;
 }
 
@@ -50,6 +50,29 @@
 
 .weatherImgHolder {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .weatherBlock1 {
+        width: 100%;
+        height: 50%;
+        align-items: flex-end;
+    }
+    .weatherTextHolder {
+        width: 80%;
+        padding-bottom: 5%;
+    }
+    .weatherBlock2 {
+        width: 100%;
+        height: 50%;
+    }
+    .weatherImg {
+        height: 80%;
+        width: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }

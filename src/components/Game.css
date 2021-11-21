@@ -21,7 +21,7 @@
 }
 
 .gameTextHolder {
-    width: 60%;
+    width: 80%;
     height: fit-content;
 }
 
@@ -50,6 +50,29 @@
 
 .gameImgHolder {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .gameBlock1 {
+        width: 100%;
+        height: 50%;
+        align-items: flex-end;
+    }
+    .gameTextHolder {
+        width: 80%;
+        padding-bottom: 5%;
+    }
+    .gameBlock2 {
+        width: 100%;
+        height: 50%;
+    }
+    .gameImg {
+        height: 80%;
+        width: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }

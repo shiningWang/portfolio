@@ -59,3 +59,18 @@
 .mobileImg, .emailImg, .githubImg {
     height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .contactBlock1 {
+        width: 100%;
+        height: 40%;
+        align-items: flex-end;
+    }
+    .contactTextHolder {
+        width: 70%;
+    }
+    .contactBlock2 {
+        width: 100%;
+        height: 40%;
+    }
+}

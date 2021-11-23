@@ -123,6 +123,13 @@
     float: left;
 }
 
+.gymBriefName {
+    position: absolute;
+    z-index: 21;
+    font-size: 8em;
+    color: rgba(256, 256, 256, .7);
+}
+
 .gymAppCol {
     height: 100vh;
     width: 100%;
@@ -157,4 +164,35 @@
 
 .gymIntroText {
     padding-bottom: 1em;
+}
+
+.gymInfoExit {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gymInfoExitHolder {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: scale(1);
+    transition: all .3s;
+}
+
+.gymInfoExitHolder:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.gymExitIcon {
+    height: 2em;
+}
+
+.gymExitText {
+    margin-left: 1em;
+    line-height: 100%;
 }

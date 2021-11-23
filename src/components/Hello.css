@@ -41,6 +41,30 @@
     float: left;
 }
 
+.helloViews {
+    margin-top: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.helloViews:hover {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.linkOut:link, .linkOut:visited {
+  text-decoration: none;
+  color: #000000;
+  cursor: none;
+}
+
+.linkOut:hover, .linkOut:active {
+  text-decoration: underline;
+  color: #000000;
+  cursor: none;
+}
+
 @media screen and (max-width: 768px) {
     .helloBlock1 {
         width: 100%;

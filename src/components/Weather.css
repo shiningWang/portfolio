@@ -29,16 +29,6 @@
     margin-top: 1em;
 }
 
-.linkOut:link, .linkOut:visited {
-  text-decoration: none;
-  color: #000000;
-}
-
-.linkOut:hover, .linkOut:active {
-  text-decoration: underline;
-  color: #000000;
-}
-
 .weatherBlock2 {
     width: 50%;
     height: 100%;

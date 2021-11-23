@@ -79,9 +79,7 @@ class App extends React.Component {
     if (this.state.currentPage === this.state.index[7]) {
       return (
         <React.Fragment>
-          <div className="buttonsHolder">
-            {this.state.currentPage === Hello && <div className="pageActive"><span className="textContent">Who</span></div>}{this.state.currentPage !== Hello && <div className="page" onClick={() => { this.pageChange(3) }}><span className="textContent">Back</span></div>}
-          </div>
+          <div></div>
         </React.Fragment>
       )
     } else {

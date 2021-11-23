@@ -61,6 +61,13 @@
   padding-right: 1em;
   background-color: rgba(255, 255, 255, .3);
   color: rgba(00, 00, 00, .7);
+  transform: scale(1);
+  transition: all .3s;
+}
+
+.page:hover {
+  transform: scale(1.1);
+  transition: all .3s;
 }
 
 .pageActive {
@@ -187,4 +194,14 @@
     margin-left: 0;
     top: 95%;
   }
+}
+
+.linkOut:link, .linkOut:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.linkOut:hover, .linkOut:active {
+  text-decoration: underline;
+  color: #000000;
 }

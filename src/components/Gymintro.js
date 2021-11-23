@@ -9,6 +9,7 @@ import gymBookingCategoriesImg from '../img/gymBookingCategories.png';
 import gymBookingYogaSessionsImg from '../img/gymBookingYogaSessions.png';
 import gymBookingErrorPreventionImg from '../img/gymBookingErrorPrevention.png';
 import gymBookingMySchedualeImg from '../img/gymBookingMyScheduale.png';
+import backImg from '../img/back.svg';
 
 import React from 'react';
 
@@ -36,6 +37,7 @@ class Gymintro extends React.Component {
                                         <img height="65%" src={nodejsImg} />
                                     </div>
                                     <div className="projectExt"><span className="textContent"><a className="linkOut" href={'//github.com/shiningWang?tab=repositories'}>View-Repository</a></span></div>
+                                    <div className="projectExt" onClick={() => { this.props.pageChange(3) }}><a className="linkOut"><span className="textContent">Back</span></a></div>
                                 </div>
                             </div>
 
@@ -85,6 +87,7 @@ class Gymintro extends React.Component {
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                         <div className="gymAppCol">
@@ -176,6 +179,13 @@ class Gymintro extends React.Component {
                                 <div className="gymAppColBlock2Container">
                                     <img height="80%" src={gymBookingMySchedualeImg} />
                                 </div>
+                            </div>
+                        </div>
+
+                        <div className="gymInfoExit">
+                            <div className="gymInfoExitHolder" onClick={() => { this.props.pageChange(3) }}>
+                                <div className="gymExitIcon"><img height="100%" src={backImg} /></div>
+                                <div className="gymExitText"><span className="textContent">Back</span></div>
                             </div>
                         </div>
 

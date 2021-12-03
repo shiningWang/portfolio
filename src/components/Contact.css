@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.contactIntro {
+    margin-top: 1em;
+}
+
 .contactTextHolder {
     width: fit-content;
     height: fit-content;

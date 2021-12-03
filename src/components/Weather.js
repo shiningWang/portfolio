@@ -19,7 +19,7 @@ class Weather extends React.Component {
                         <div className="weatherBlock1">
                             <div className="weatherTextHolder">
                                 <div><span className="textTitle">Weather Forecast</span></div>
-                                <div><span className="textContent">This fully responsive weather forecast app is using HTML, CSS, and React to deliver quality, visual pleasing web service based on Third Party APIs</span></div>
+                                <div className="weatherIntro"><span className="textContent">This fully responsive weather forecast app is using HTML, CSS, and React to deliver quality, visual pleasing web service based on Third Party APIs</span></div>
                                 <div className="projectExt"><span className="textContent"><a className="linkOut" href={'//shiningwang.github.io/weather/'}>Launch-App</a></span></div>
                                 <div className="projectExt"><span className="textContent"><a className="linkOut" href={'//github.com/shiningWang?tab=repositories/'}>View-Repository</a></span></div>
                             </div>

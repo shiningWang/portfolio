@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.weatherIntro {
+    margin-top: 1em;
+}
+
 .weatherTextHolder {
     width: 80%;
     height: fit-content;

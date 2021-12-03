@@ -22,7 +22,7 @@ class Contact extends React.Component {
                         <div className="contactBlock1">
                             <div className="contactTextHolder">
                                 <div><span className="textTitle">Let's Chat!</span></div>
-                                <div><span className="textContent">Love to take any exciting opportunities.</span></div>
+                                <div className="contactIntro"><span className="textContent">Love to take any exciting opportunities.</span></div>
                             </div>
                         </div>
 

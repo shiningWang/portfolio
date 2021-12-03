@@ -20,6 +20,10 @@
     justify-content: center;
 }
 
+.gameIntro {
+    margin-top: 1em;
+}
+
 .gameTextHolder {
     width: 80%;
     height: fit-content;
